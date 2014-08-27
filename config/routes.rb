@@ -54,5 +54,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   
-  get 'signup/register' => 'signup#register'
+  post 'signup/register' => 'signup#register'
 end

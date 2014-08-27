@@ -5,9 +5,8 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :null_session
   
   def set_access_control_headers
-    p 'aa gaya here'
     headers['Access-Control-Allow-Origin'] = '*' 
     headers['Access-Control-Request-Method'] = 'GET, HEAD'
-    headers['Access-Control-Allow-Headers'] = 'x-requested-with,Content-Type, Authorization'
+    headers['Access-Control-Allow-Headers'] = 'x-requested-with, Content-Type, Authorization'
   end
 end
