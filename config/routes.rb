@@ -55,4 +55,5 @@ Rails.application.routes.draw do
   #   end
   
   post 'signup/register' => 'signup#register'
+  get 'report/referred_list' => 'report#referred_list'
 end
