@@ -1,0 +1,44 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: referral
+  pool: 5
+  username: lineupuser
+  password: lineupuser
+  host: localhost
+  
+development_admin:
+  adapter: postgresql
+  encoding: unicode
+  database: referral
+  pool: 5
+  username: lineupuser
+  password: lineupuser
+  host: localhost
+
+staging:
+  adapter: postgresql
+  encoding: unicode
+  database: referral
+  pool: 5
+  username: lineupuser
+  password: lineupuser
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: referral
+  pool: 5
+  username: lineupuser
+  password: lineupuser
+  host: localhost
+  
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: referral
+  pool: 5
+  username: lineupuser
+  password: lineupuser
+  host: localhost
